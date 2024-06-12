@@ -1,0 +1,203 @@
+.parentContainer {
+  padding-inline: 2vw;
+  display: flex;
+  margin-top: 20vh;
+  gap: 6vw;
+}
+
+.side1 {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.image {
+  width: 317px;
+  height: 105px;
+}
+
+.heading1 {
+  font-size: 35px;
+  text-align: left;
+  color: #112949;
+  margin-top: 30px;
+}
+
+.heading2 {
+  font-size: 24px;
+  text-align: left;
+  color: hsl(214, 62%, 18%);
+  width: 550px;
+  margin-top: 50px;
+}
+
+.inputButtonContainer {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.input {
+  border: 1px solid #ABABAB;
+  border-radius: 10px;
+  opacity: 1;
+  width: 304px;
+  height: 48px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.button {
+  width: 203px;
+  height: 48px;
+  background: #EA7B2C 0% 0% no-repeat padding-box;
+  border: 1px solid #EA7B2C;
+  border-radius: 10px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.card {
+  width: 220px;
+  height: 190px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: 65vh;
+}
+
+.title {
+  color: #3CC3F2;
+  width: 150px;
+}
+
+.description {
+  color: white;
+  padding-left: 10px;
+}
+
+.cardwrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardImage {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 2732px) {
+  .cardContainer {
+    gap: 5px;
+  }
+
+  .parentContainer {
+    padding-inline: 7vw;
+    display: flex;
+    margin-top: 20vh;
+    gap: 10px;
+  }
+
+  .card {
+    width: 280px;
+    height: 290px;
+
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    width: 200px;
+    height: 210px;
+
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .cardContainer {
+    gap: 5px;
+  }
+
+  .parentContainer {
+    padding-inline: 1vw;
+    display: flex;
+    margin-top: 20vh;
+    gap: 1vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .parentContainer {
+    padding-inline: 20px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vh;
+    gap: 0vw;
+  }
+
+  .heading1 {
+    font-size: 32\4px;
+    text-align: center;
+    color: #112949;
+    margin-top: 30px;
+  }
+
+  .heading2 {
+    font-size: 24px;
+    text-align: center;
+    color: hwb(214 7% 71%);
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .inputButtonContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .image {
+    width: 222px;
+    height: 62px;
+  }
+
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .card {
+    width: 100%;
+    height: 180px;
+    background: #112949 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  .side1 {
+    height: 100%;
+  }
+
+  .input {
+    width: 100%;
+    height: 48px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+}
